@@ -1,15 +1,17 @@
-## Your Name
+## Christina Xiao
 
 Welcome to my website!
 
-### Added Feature #1
+### about page fun facts
 
-Description
+click the numbers 1-4 to get some spicy fun facts about me
 
-Screenshots
+![fun fact 1](/screenshots/funfact1.png)
+![fun fact 2](/screenshots/funfact2.png)
 
-### Added Feature #2
+### fancy updated project page
 
-Description
+remodeled the project page to look more like the experiences page, except the projects are ordered by date instead of title
 
-Screenshots
+![projects page unclicked](/screenshots/projects1.png)
+![projects page clicked](/screenshots/projects2.png)
