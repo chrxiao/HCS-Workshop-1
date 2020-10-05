@@ -1,0 +1,61 @@
+.project-background {
+display: flex;
+}
+
+.timeline-background {
+width: 50%;
+}
+
+.project-item {
+display: flex;
+width: 50%;
+height: 120px;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.project-item:hover {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+background-color: cornflowerblue;
+}
+
+.project-ball {
+position: absolute;
+width: 24px;
+height: 24px;
+border-radius: 12px;
+background: crimson;
+}
+
+.project-info {
+padding: 24px;
+font-size: 10pt;
+}
+
+.project-info h4,
+p {
+margin: 0;
+}
+
+.highlight-background {
+display: flex;
+flex-direction: column;
+width: 50%;
+height: calc(100%);
+background: crimson;
+position: -webkit-sticky;
+position: sticky;
+top: 48px;
+justify-content: center;
+align-items: center;
+margin: 32px;
+}
+
+.highlight-background h1,
+h4,
+p {
+margin: 8px;
+}

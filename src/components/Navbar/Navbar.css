@@ -7,6 +7,10 @@
 }
 
 .info-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .info-item {
@@ -23,6 +27,12 @@
 }
 
 .nav-background {
+  display: flex;
+  flex-direction: row;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 60%;
+  justify-content: space-around;
 }
 
 .nav-item {

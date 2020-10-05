@@ -1,7 +1,34 @@
 .intro-background {
+	display: flex;
+	flex-direction: row;
+}
+
+.fun-fact-background {
+  display: flex;
+}
+
+.fun-fact-clicker-background {
+  display: flex;
+  background-color: crimson;
+}
+
+.num-item {
+  font-weight: bold;
+}
+
+.fun-fact-item {
+  margin: 2%;
+}
+
+.intro-pic {
+	display: flex;
+	flex: 1;
 }
 
 .intro-item {
+	display: flex;
+  flex: 5;		/* gives every intro-item 1 "point" */
+  margin-left: 5%;
 }
 
 .intro-item h1,
@@ -19,3 +46,4 @@ li {
   width: 100%;
   height: 100%;
 }
+
